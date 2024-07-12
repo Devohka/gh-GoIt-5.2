@@ -1,12 +1,15 @@
 import Greeting from "./component/Greeting/Greeting";
 import Message from "./component/Message/Message";
+import OnClick from "./component/OnClick/OnClick";
 import './App.css';
 
 function App() {
   const nameHello = "You";
   return (
     <>
+    <Message/>
     <Greeting name={nameHello}/>
+    <OnClick content="click"/>
 
     </>
   );

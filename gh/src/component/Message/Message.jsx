@@ -1,6 +1,6 @@
-const Message = (nameHello) => {
+const Message = () => {
     return (
-        <h1>Привіт {nameHello}!</h1>
+        <h2>Це повідомлення ви повині бачити</h2>
     );
 };
 

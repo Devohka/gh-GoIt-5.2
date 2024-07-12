@@ -1,6 +1,6 @@
 const Greeting = (nameHello) => {
     return (
-        <h1>Привіт {nameHello}!</h1>
+        <h1>Привіт {nameHello.name}!</h1>
     );
 };
 
