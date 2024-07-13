@@ -3,7 +3,7 @@ const OnClick = (text) => {
         console.log('console!');
       }
     return (
-        <button type="button" onclick={click}>{text.content}</button>
+        <button type="button" onClick={click}>{text.content}</button>
     );
 };
 
